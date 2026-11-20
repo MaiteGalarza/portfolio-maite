@@ -17,7 +17,7 @@ export default function NextStage() {
           </Reveal>
         </div>
 
-        {/* 📷 MONEDA (export de Figma) → public/images/moneda.png */}
+
         <Float amp={8} duration={5}>
           <motion.div
             className="mx-auto w-[min(80vw,440px)]"
@@ -32,7 +32,7 @@ export default function NextStage() {
         </Float>
       </div>
 
-      {/* 📷 TIRA DE 3 FOTOS (sangrado a los bordes) → public/images/etapa-1..3.png */}
+
       <div className="mt-24 grid md:grid-cols-3">
         <PhotoSlot src="/images/etapa-1.png" alt="Puente de Brooklyn nublado" ratio="475/360" />
         <PhotoSlot src="/images/etapa-2.png" alt="Atardecer en silueta" ratio="475/360" delay={0.15} />

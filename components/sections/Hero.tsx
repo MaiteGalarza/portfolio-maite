@@ -23,10 +23,9 @@ export default function Hero() {
         </div>
 
         <div className="relative">
-          {/* 📷 FOTO: la vitrina completa (marco azul + foto + estante) → public/images/hero-vitrina.png */}
           <PhotoSlot src="/images/hero-vitrina.png" alt="Maite frente al espejo, dentro de una vitrina" ratio="5/7" priority className="w-full" />
 
-          {/* tarjeta que cae y se acomoda */}
+
           <motion.div
             className="absolute -bottom-10 -left-[18%] w-[58%] bg-[#F3EFE6] p-5 shadow-[0_18px_40px_rgba(0,0,0,.25)]"
             initial={{ opacity: 0, y: -80, rotate: 10 }}

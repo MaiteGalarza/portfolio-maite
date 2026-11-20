@@ -6,7 +6,6 @@ import Float from "@/components/ui/Float";
 export default function Hunda() {
   return (
     <section id="hunda" className="font-hunda relative overflow-hidden bg-hunda pb-28 text-[#F4EEE2]">
-      {/* transición suave desde el beige de la pista */}
       <div className="h-56" style={{ background: "linear-gradient(180deg,#C2A880,rgba(194,168,128,0))" }} />
 
       <div className="grid items-center gap-14 px-[5vw] lg:grid-cols-[.9fr_1.1fr]">
@@ -23,7 +22,6 @@ export default function Hunda() {
         </div>
 
         <div className="relative flex flex-col gap-10">
-          {/* 📷 CAPTURAS → public/images/hunda-landing.png y hunda-dashboard.png */}
           <Float amp={12} duration={7}><PhotoSlot src="/images/hunda-landing.png" alt="Landing de hunda" ratio="39/25" /></Float>
           <Float amp={10} duration={8} delay={1.2} className="w-[78%] self-end"><PhotoSlot src="/images/hunda-dashboard.png" alt="Dashboard de hunda" ratio="30/17" delay={0.2} /></Float>
         </div>

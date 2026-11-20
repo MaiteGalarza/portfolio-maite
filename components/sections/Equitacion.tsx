@@ -5,7 +5,7 @@ import { motion, useScroll, useTransform } from "framer-motion";
 import PhotoSlot from "@/components/ui/PhotoSlot";
 import Reveal from "@/components/ui/Reveal";
 
-/* Obstáculo numerado de la pista */
+
 function Bar({ n, className = "", vertical = false }: { n: number; className?: string; vertical?: boolean }) {
   return (
     <motion.div
@@ -28,10 +28,9 @@ export default function Equitacion() {
 
   return (
     <>
-      {/* Portada con parallax */}
+
       <section ref={ref} className="relative h-[85vh] overflow-hidden bg-[#2a2a1f]">
         <motion.div style={{ y }} className="absolute inset-[-10%]">
-          {/* 📷 FOTO a pantalla completa (sin el título) → public/images/equitacion-portada.png */}
           <Image src="/images/equitacion-portada.png" alt="Maite saltando a caballo" fill className="object-cover" priority />
         </motion.div>
         <div className="absolute inset-0 bg-black/35" />
@@ -41,7 +40,7 @@ export default function Equitacion() {
         </div>
       </section>
 
-      {/* Pista de salto */}
+
       <section className="bg-pista px-[4vw] py-20">
         <div className="relative mx-auto max-w-[1400px] rounded-[60px] border-[6px] border-white px-[6%] py-[6%]">
           <svg className="pointer-events-none absolute inset-0 h-full w-full" viewBox="0 0 100 100" preserveAspectRatio="none" aria-hidden>
@@ -54,7 +53,7 @@ export default function Equitacion() {
           <Bar n={4} className="left-[-3%] top-1/2 -translate-y-1/2" vertical />
 
           <div className="relative grid grid-cols-[1fr_.8fr_1fr] items-center gap-x-6 gap-y-10">
-            {/* 📷 FOTOS (esquinas) → public/images/pista-1..4.png */}
+
             <PhotoSlot src="/images/pista-1.png" alt="Entrada en pista" ratio="3/2" />
             <Reveal className="row-span-2 row-start-1 col-start-2 text-center">
               <p className="font-title text-2xl leading-[1.6]">
