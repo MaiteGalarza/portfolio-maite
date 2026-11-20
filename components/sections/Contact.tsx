@@ -16,7 +16,7 @@ export default function Contact() {
         transition={{ type: "spring", stiffness: 55, damping: 13 }}
         whileHover={{ rotate: -1, y: -12, scale: 1.02 }}
       >
-        <Image src="/images/contacto-carta.png" alt="Carta dirigida a Maite Galarza Astiz, m.galarza.astiz@gmail.com" fill className="object-contain" />
+        <Image src="/fondos/carta.png" alt="Carta dirigida a Maite Galarza Astiz, m.galarza.astiz@gmail.com" fill className="object-contain" />
       </motion.a>
     </section>
   );

@@ -46,9 +46,9 @@ export default function Animals() {
         </div>
 
         <div className="grid grid-cols-2 gap-5">
-          <PhotoSlot src="/images/animales-1.png" alt="Perro pastor alemán recostado" ratio="5/3" className="col-span-2" />
-          <PhotoSlot src="/images/animales-2.png" alt="Perra negra recostada" ratio="10/11" delay={0.15} />
-          <PhotoSlot src="/images/animales-3.png" alt="Retrato de perra negra" ratio="10/11" delay={0.3} />
+          <PhotoSlot src="/animales/animales1.png" alt="Perro pastor alemán recostado" ratio="5/3" className="col-span-2" />
+          <PhotoSlot src="/animales/animales2.png" alt="Perra negra recostada" ratio="10/11" delay={0.15} />
+          <PhotoSlot src="/animales/animales3.png" alt="Retrato de perra negra" ratio="10/11" delay={0.3} />
         </div>
       </div>
     </section>

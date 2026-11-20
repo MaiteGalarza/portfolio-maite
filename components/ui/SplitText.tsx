@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 // Cada letra sube desde una máscara
 export default function SplitText({ text, className = "", delay = 0 }: { text: string; className?: string; delay?: number }) {
   return (
-    <span className={className} aria-label={text}>
+    <span className={`${className} whitespace-nowrap`} aria-label={text}>
       {text.split("").map((c, i) => (
         <span key={i} aria-hidden className="inline-block overflow-hidden px-[0.04em] py-[0.12em] align-bottom">
           <motion.span

@@ -13,7 +13,7 @@ export default function Hero() {
         <div>
           <h1 className="font-title leading-[.9]">
             <SplitText text="Maite" delay={0.2} className="block text-[clamp(6rem,15vw,13rem)] italic text-[var(--brown)]" />
-            <SplitText text="Galarza Astiz" delay={0.6} className="block text-[clamp(3rem,7.5vw,7rem)] font-light text-[var(--navy)]" />
+            <SplitText text="Galarza Astiz" delay={0.6} className="block text-[clamp(3rem,6.4vw,7rem)] font-light text-[var(--navy)]" />
           </h1>
           <Reveal delay={1.5}>
             <p className="font-body mt-12 max-w-md text-xl leading-relaxed">
@@ -23,7 +23,7 @@ export default function Hero() {
         </div>
 
         <div className="relative">
-          <PhotoSlot src="/images/hero-vitrina.png" alt="Maite frente al espejo, dentro de una vitrina" ratio="5/7" priority className="w-full" />
+          <PhotoSlot src="/hero.png" alt="Maite frente al espejo, dentro de una vitrina" ratio="5/7" priority className="w-full" />
 
 
           <motion.div

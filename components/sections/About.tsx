@@ -27,12 +27,12 @@ export default function About() {
 
         <div className="grid grid-cols-2 gap-5">
           <div className="flex flex-col gap-5">
-            <PhotoSlot src="/images/sobre-mi-1.png" alt="Templo egipcio en un museo" ratio="25/35" />
-            <PhotoSlot src="/images/sobre-mi-3.png" alt="Collage de intereses" ratio="25/39" delay={0.2} />
+            <PhotoSlot src="/sobremi/sobremi1.png" alt="Templo egipcio en un museo" ratio="25/35" />
+            <PhotoSlot src="/sobremi/sobremi3.png" alt="Collage de intereses" ratio="25/39" delay={0.2} />
           </div>
           <div className="flex flex-col gap-5 pt-0 lg:pt-0">
-            <PhotoSlot src="/images/sobre-mi-2.png" alt="Fachada griega en un museo" ratio="25/28" delay={0.1} />
-            <PhotoSlot src="/images/sobre-mi-4.png" alt="Sala de teatro" ratio="25/46" delay={0.3} />
+            <PhotoSlot src="/sobremi/sobremi2.png" alt="Fachada griega en un museo" ratio="25/28" delay={0.1} />
+            <PhotoSlot src="/sobremi/sobremi4.png" alt="Sala de teatro" ratio="25/46" delay={0.3} />
           </div>
         </div>
       </div>

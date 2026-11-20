@@ -27,16 +27,16 @@ export default function NextStage() {
             transition={{ duration: 1.4, ease: [0.22, 1, 0.36, 1] }}
             whileHover={{ rotateY: 180 }}
           >
-            <PhotoSlot src="/images/moneda.png" alt="Moneda: Historia o Arqueología" ratio="1/1" />
+            <PhotoSlot src="/moneda.png" alt="Moneda: Historia o Arqueología" ratio="1/1" />
           </motion.div>
         </Float>
       </div>
 
 
       <div className="mt-24 grid md:grid-cols-3">
-        <PhotoSlot src="/images/etapa-1.png" alt="Puente de Brooklyn nublado" ratio="475/360" />
-        <PhotoSlot src="/images/etapa-2.png" alt="Atardecer en silueta" ratio="475/360" delay={0.15} />
-        <PhotoSlot src="/images/etapa-3.png" alt="Calle empedrada de Colonia" ratio="475/360" delay={0.3} />
+        <PhotoSlot src="/etapa/etapa1.png" alt="Puente de Brooklyn nublado" ratio="475/360" />
+        <PhotoSlot src="/etapa/etapa2.png" alt="Atardecer en silueta" ratio="475/360" delay={0.15} />
+        <PhotoSlot src="/etapa/etapa3.png" alt="Calle empedrada de Colonia" ratio="475/360" delay={0.3} />
       </div>
     </section>
   );

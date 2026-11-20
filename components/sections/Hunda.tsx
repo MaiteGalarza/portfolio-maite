@@ -22,8 +22,8 @@ export default function Hunda() {
         </div>
 
         <div className="relative flex flex-col gap-10">
-          <Float amp={12} duration={7}><PhotoSlot src="/images/hunda-landing.png" alt="Landing de hunda" ratio="39/25" /></Float>
-          <Float amp={10} duration={8} delay={1.2} className="w-[78%] self-end"><PhotoSlot src="/images/hunda-dashboard.png" alt="Dashboard de hunda" ratio="30/17" delay={0.2} /></Float>
+          <Float amp={12} duration={7}><PhotoSlot src="/hunda/hunda1.png" alt="Landing de hunda" ratio="39/25" /></Float>
+          <Float amp={10} duration={8} delay={1.2} className="w-[78%] self-end"><PhotoSlot src="/hunda/hunda2.png" alt="Dashboard de hunda" ratio="30/17" delay={0.2} /></Float>
         </div>
       </div>
     </section>

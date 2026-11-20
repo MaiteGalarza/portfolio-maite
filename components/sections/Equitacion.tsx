@@ -31,7 +31,7 @@ export default function Equitacion() {
 
       <section ref={ref} className="relative h-[85vh] overflow-hidden bg-[#2a2a1f]">
         <motion.div style={{ y }} className="absolute inset-[-10%]">
-          <Image src="/images/equitacion-portada.png" alt="Maite saltando a caballo" fill className="object-cover" priority />
+          <Image src="/equitacion/equitacionportada.png" alt="Maite saltando a caballo" fill className="object-cover" priority />
         </motion.div>
         <div className="absolute inset-0 bg-black/35" />
         <div className="absolute right-[5vw] top-[10%] text-right text-[#F3EBDD]">
@@ -54,15 +54,15 @@ export default function Equitacion() {
 
           <div className="relative grid grid-cols-[1fr_.8fr_1fr] items-center gap-x-6 gap-y-10">
 
-            <PhotoSlot src="/images/pista-1.png" alt="Entrada en pista" ratio="3/2" />
+            <PhotoSlot src="/equitacion/equitacion1.png" alt="Entrada en pista" ratio="3/2" />
             <Reveal className="row-span-2 row-start-1 col-start-2 text-center">
               <p className="font-title text-2xl leading-[1.6]">
                 Hago equitación desde los cuatro años. Empecé en el Hípico de San Isidro y a los nueve años me cambié al Club Alemán de Equitación, donde sigo practicando hasta hoy. Es una actividad que me acompaña desde chica, la cual disfruto mucho.
               </p>
             </Reveal>
-            <PhotoSlot src="/images/pista-2.png" alt="Salto de frente" ratio="3/2" delay={0.15} className="col-start-3" />
-            <PhotoSlot src="/images/pista-3.png" alt="Salto en pista" ratio="3/2" delay={0.3} className="row-start-2" />
-            <PhotoSlot src="/images/pista-4.png" alt="Paseo a caballo" ratio="3/2" delay={0.45} className="col-start-3 row-start-2" />
+            <PhotoSlot src="/equitacion/equitacion2.png" alt="Salto de frente" ratio="3/2" delay={0.15} className="col-start-3" />
+            <PhotoSlot src="/equitacion/equitacion3.png" alt="Salto en pista" ratio="3/2" delay={0.3} className="row-start-2" />
+            <PhotoSlot src="/equitacion/equitacion4.png" alt="Paseo a caballo" ratio="3/2" delay={0.45} className="col-start-3 row-start-2" />
           </div>
         </div>
       </section>
