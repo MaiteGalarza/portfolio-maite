@@ -1,26 +1,25 @@
 @import "tailwindcss";
 
 :root {
-  --background: #ffffff;
-  --foreground: #171717;
+  --cream: #E8E1D5;
+  --brown: #4C362D;
+  --terra: #A46447;
+  --navy: #1F2A3A; /* ajustá al azul exacto de tu Figma */
+
+  /* En Figma el degradé radial va ENCIMA del color sólido: acá lo ordené así */
+  --paper: radial-gradient(50% 50% at 50% 50%, rgba(110,79,61,0) 60%, rgba(110,79,61,.22) 100%), linear-gradient(0deg, #EDE3D1, #EDE3D1);
+  --pista: linear-gradient(180deg, rgba(194,168,128,0) 82%, #C2A880 100%), radial-gradient(50% 50% at 50% 50%, rgba(140,102,64,0) 55%, rgba(115,82,51,.28) 100%), linear-gradient(0deg, #D6BE98, #D6BE98);
+  --hunda: linear-gradient(126.87deg, #24453C 14.29%, #12241F 85.71%);
+  --contacto: radial-gradient(50% 50% at 50% 50%, rgba(255,191,128,.18) 40%, rgba(77,38,26,.35) 100%), linear-gradient(0deg, #A46447, #A46447);
 }
 
-@theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
-}
+html { scroll-behavior: smooth; }
+body { background: var(--cream); color: var(--brown); font-family: var(--font-body), serif; }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
-}
-
-body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
-}
+.font-title { font-family: var(--font-title), serif; }
+.font-body { font-family: var(--font-body), serif; }
+.font-hunda { font-family: var(--font-hunda), sans-serif; }
+.bg-paper { background: var(--paper); }
+.bg-pista { background: var(--pista); }
+.bg-hunda { background: var(--hunda); }
+.bg-contacto { background: var(--contacto); }
